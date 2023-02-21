@@ -516,7 +516,7 @@
       (net 7 "VEE") (pintype "passive") (tstamp 408e04a9-7194-4bdd-8db1-c26db10c8ed7))
     (pad "2" smd roundrect (at 0.9 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "GND") (pintype "passive") (tstamp bc981f77-af66-484c-b158-8eb6ab7317fe))
-    (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -726,7 +726,7 @@
       (net 10 "VCC") (pintype "passive") (tstamp 0817cd9a-7d1a-45ae-8e17-954312c35ba0))
     (pad "2" smd roundrect (at 0.9 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "GND") (pintype "passive") (tstamp a22b5d27-5db4-43b0-b21d-eda98607abbc))
-    (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1102,8 +1102,18 @@
       (net 6 "/C1") (pinfunction "Pin_9") (pintype "passive") (tstamp 73ac5a24-0048-4cec-954c-39dd23df4807))
     (pad "10" smd oval (at 6.045 5.08) (size 6.1 1.6) (drill (offset -2.1 0)) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 13 "/V-") (pinfunction "Pin_10") (pintype "passive") (tstamp 938e4f66-8c61-483e-ba69-d29229fd524f))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-10_W8.89mm_SMDSocket.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-10_W8.89mm_SMDSocket.wrl" hide
       (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "/Library/Application Support/kicad/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left.wrl"
+      (offset (xyz 4 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "/Library/Application Support/kicad/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left.wrl"
+      (offset (xyz -4 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
