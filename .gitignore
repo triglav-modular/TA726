@@ -67,3 +67,6 @@ jlcpcb-panel/
 *jlcpcb/
 Board2Pdf/
 .DS_Store
+bak/TA726.kicad_pcb
+bak/TA726.kicad_sch
+out.log
